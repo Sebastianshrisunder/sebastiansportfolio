@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #171717;
+    color: white;
+    font-variant: small-caps;
+}
+#about .card{
+    /* background-color: #ef233c; */
+    margin: 2rem 2rem;
+}
+
+#about2 .card{
+    background-color: #171717;
+    margin: 2rem 2rem;
+}
+#about2 .card-body{
+    border: 0.02rem solid #ef233c;
+    border-top-right-radius: 2rem;
+}
+#skills .card{
+    margin: 2rem 2rem;
+    height: 15px;
+}
+#c{
+    background: linear-gradient(90deg,#ef233c 75%,#6c757d 25%);
+}
+#cpp{
+    background: linear-gradient(90deg,#ef233c 85%,#6c757d 15%);
+}
+#py{
+    background: linear-gradient(90deg,#ef233c 65%,#6c757d 35%);
+}
+#html{
+    background: linear-gradient(90deg,#ef233c 85%,#6c757d 15%);
+}
+#css{
+    background: linear-gradient(90deg,#ef233c 80%,#6c757d 20%);
+}
+#js{
+    background: linear-gradient(90deg,#ef233c 50%,#6c757d 50%);
+}
+#bs{
+    background: linear-gradient(90deg,#ef233c 75%,#6c757d 25%);
+}
+#jq{
+    background: linear-gradient(90deg,#ef233c 70%,#6c757d 30%);
+}
+#dj{
+    background: linear-gradient(90deg,#ef233c 78%,#6c757d 22%);
+}
+#sql{
+    background: linear-gradient(90deg,#ef233c 60%,#6c757d 40%);
+}
+#mongo{
+    background: linear-gradient(90deg,#ef233c 58%,#6c757d 42%);
+}
+#wp{
+    background: linear-gradient(90deg,#ef233c 50%,#6c757d 50%);
+}
+#projects .card{
+    background-color: #171717;
+    margin: 2rem 2rem;
+    
+    transition-duration: 1s;
+}
+#projects .card :hover{
+    transform: scale(1.12);
+    transition-timing-function: ease-in-out;
+}
+#qualification .card{
+    background-color: #171717;
+    margin: 1rem 1rem;
+}
+#testimonials .card{
+    margin: 1rem 1rem;
+}
+#person1{
+    background-color: #ef233c;
+}
+#contact{
+    max-width: 100%;
+    justify-items: center;
+    justify-self: unset;
+}
+#contact input{
+    margin: 1rem 5rem;
+    font-variant: small-caps;
+    background-color: #171717;
+    border: 0.02rem solid #ef233c;
+    padding: 0.5rem 1rem;
+    color: white;
+    width: 13rem;
+}
+#contact textarea{
+    color: white;
+    margin: 1rem 5rem;
+    font-variant: small-caps;
+    background-color: #171717;
+    border: 0.02rem solid #ef233c;
+    padding: 1rem 1rem;
+    height: 10rem;
+}
+#submit{
+    background-color: #ef233c;
+    margin: 0rem 5rem;
+    color: white;
+}
+iframe{
+    border: 0.02rem solid #ef233c;
+}
+#projects a{
+    color: white;
+    text-decoration: none;
+}
+#gallery .card{
+    margin: 2rem 2rem;
+    text-align: center;
+}
